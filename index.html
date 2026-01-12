@@ -3,75 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>타디시(TDS) 최적화 매크로 공식 페이지</title>
+    <title>Shinpa Macro - TDS 타워 디펜스 시뮬레이터 최적화 도구</title>
     <style>
-        /* 프로그램 하단 웹뷰에 최적화된 스타일 */
-        body { font-family: 'Malgun Gothic', sans-serif; margin: 0; padding: 15px; line-height: 1.6; color: #333; background-color: #ffffff; }
+        body { font-family: 'Malgun Gothic', sans-serif; margin: 0; padding: 15px; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; }
         
-        /* 광고가 들어갈 핵심 박스 */
-        .ad-container { 
+        /* 광고 영역: 승인 후 이 부분에 코드를 넣으세요 */
+        .ad-unit { 
             width: 100%; 
-            min-height: 100px; 
-            background: #f0f2f5; 
-            border: 2px dashed #764ba2; 
+            min-height: 120px; 
+            background: #764ba2; 
+            color: white;
             display: flex; 
             flex-direction: column;
             align-items: center; 
             justify-content: center; 
-            margin-bottom: 20px;
-            border-radius: 10px;
             text-align: center;
+            border-bottom: 4px solid #667eea;
         }
         
-        .ad-label { font-size: 12px; color: #764ba2; font-weight: bold; margin-bottom: 5px; }
+        .ad-status { font-size: 14px; font-weight: bold; background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 20px; margin-top: 10px; }
 
-        .content { background: #fff; padding: 10px; border-radius: 8px; }
-        h1 { font-size: 20px; color: #4b6cb7; margin-top: 0; border-bottom: 2px solid #4b6cb7; padding-bottom: 5px; }
-        h3 { font-size: 16px; color: #333; margin-bottom: 8px; }
-        p { margin: 8px 0; font-size: 13px; }
-        ul { padding-left: 20px; margin: 8px 0; }
-        li { font-size: 13px; margin-bottom: 5px; }
+        .main-content { padding: 25px; }
+        h1 { font-size: 24px; color: #2d3436; margin-top: 0; display: flex; align-items: center; }
+        h1 span { background: #764ba2; color: white; padding: 2px 10px; border-radius: 5px; font-size: 14px; margin-left: 10px; }
         
-        /* 애드센스 승인을 위한 정보성 문구 추가 */
-        .notice { background: #fff3cd; padding: 10px; border-radius: 5px; font-size: 12px; border: 1px solid #ffeeba; margin-top: 15px; }
-        .footer { font-size: 11px; color: #aaa; text-align: center; margin-top: 30px; border-top: 1px solid #eee; padding-top: 10px; }
+        h3 { font-size: 18px; color: #764ba2; border-left: 4px solid #764ba2; padding-left: 10px; margin-top: 25px; }
+        p { font-size: 14px; color: #636e72; }
+        ul { padding-left: 20px; }
+        li { font-size: 14px; margin-bottom: 8px; color: #2d3436; }
+        
+        .feature-grid { display: grid; grid-template-columns: 1 side 1 side; gap: 15px; margin-top: 20px; }
+        .feature-item { background: #f1f2f6; padding: 15px; border-radius: 8px; }
+        .feature-item strong { color: #764ba2; display: block; margin-bottom: 5px; }
+
+        .guide-box { background: #e8f0fe; border-radius: 8px; padding: 15px; margin-top: 20px; border: 1px solid #d2e3fc; }
+        .warning-box { background: #fff5f5; border: 1px solid #feb2b2; color: #c53030; padding: 15px; border-radius: 8px; font-size: 13px; margin-top: 20px; }
+        
+        .footer { font-size: 12px; color: #b2bec3; text-align: center; padding: 20px; border-top: 1px solid #eee; }
     </style>
 </head>
 <body>
 
-    <div class="ad-container">
-        <div class="ad-label">SPONSORED AD</div>
-        <p style="font-size: 11px; color: #888;">애드센스 승인 심사 진행 중입니다.<br>승인 후 이곳에 광고가 표시됩니다.</p>
+<div class="container">
+    <div class="ad-unit">
+        <div style="font-size: 18px; font-weight: bold;">Shinpa Macro Sponsored Ad</div>
+        <div class="ad-status">구글 애드센스 심사 대기 중</div>
+        <p style="color: #eee; font-size: 12px; margin-top: 10px;">본 영역은 승인 후 광고로 대체됩니다.</p>
     </div>
 
-    <div class="content">
-        <h1>🎬 타디시(TDS) 전용 최적화 매크로 v1.0</h1>
-        <p>본 프로그램은 타워 디펜스 시뮬레이터(TDS) 플레이어들을 위해 제작된 <strong>고성능 자동화 도구</strong>입니다. 단순 반복 작업을 효율적으로 줄여주며 게임 내 인식을 최적화했습니다.</p>
-        
-        <h3>핵심 기술 및 기능:</h3>
+    <div class="main-content">
+        <h1>🎬 타디시(TDS) 최적화 매크로 <span>v1.0.0 Official</span></h1>
+        <p><strong>Shinpa Macro</strong>는 타워 디펜스 시뮬레이터(TDS) 유저들을 위해 개발된 전문가용 자동화 솔루션입니다. 복잡한 반복 작업을 최소화하고 안정적인 플레이 환경을 제공합니다.</p>
+
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>🚀 SendInput 기술 적용</strong>
+                로블록스 보안 엔진(Hyperion) 환경에서도 안정적으로 동작하는 저수준 입력을 사용합니다.
+            </div>
+            <div class="feature-item">
+                <strong>🎯 스마트 창 활성화</strong>
+                F7 재생 시 대상 창을 자동으로 감지하여 최상단으로 노출시키는 지능형 시스템입니다.
+            </div>
+        </div>
+
+        <h3>🛠 주요 고성능 기능</h3>
         <ul>
-            <li><strong>Win32 SendInput 최적화:</strong> 일반적인 마우스 클릭보다 인식률이 높은 커널 수준의 입력을 전달하여 로블록스 보안 환경에서도 안정적으로 작동합니다.</li>
-            <li><strong>자동 창 포커싱:</strong> 게임이 최소화되어 있거나 다른 창 뒤에 숨어있어도 실행 시 자동으로 게임 화면을 맨 앞으로 가져옵니다.</li>
-            <li><strong>상대 시간 기록 방식:</strong> 시스템 부하와 상관없이 녹화된 간격 그대로 정밀하게 재현합니다.</li>
-            <li><strong>스마트 루프 시스템:</strong> 무한 반복 기능으로 장시간 자동 플레이가 가능합니다.</li>
+            <li><strong>밀리초 단위 기록:</strong> 사용자 입력을 오차 없이 기록하여 완벽한 재현율을 자랑합니다.</li>
+            <li><strong>무한 루프 모드:</strong> 자리를 비워도 설정한 횟수만큼 자동 반복이 가능합니다.</li>
+            <li><strong>매크로 공유 시스템:</strong> .macro 파일을 통해 다른 유저와 설정을 공유할 수 있습니다.</li>
+            <li><strong>로블록스 커서 최적화:</strong> 커서 사라짐 현상을 방지하는 전용 로직이 포함되어 있습니다.</li>
         </ul>
 
-        <h3>올바른 사용 가이드:</h3>
-        <p>1. 프로그램을 <strong>관리자 권한</strong>으로 실행합니다.<br>
-           2. <strong>F8</strong>을 눌러 녹화를 시작하고 원하는 조작을 수행합니다.<br>
-           3. 다시 <strong>F8</strong>로 저장을 완료한 뒤, <strong>F7</strong>을 눌러 재생합니다.</p>
+        <div class="guide-box">
+            <h3>📖 빠른 사용법</h3>
+            <ol>
+                <li>프로그램을 <strong>관리자 권한</strong>으로 실행합니다.</li>
+                <li><strong>F8</strong>을 눌러 필요한 조작을 녹화합니다.</li>
+                <li>다시 <strong>F8</strong>을 눌러 저장을 완료합니다.</li>
+                <li><strong>F7</strong>을 누르면 저장된 매크로가 즉시 실행됩니다.</li>
+            </ol>
+        </div>
 
-        <div class="notice">
-            <strong>⚠️ 주의사항:</strong> 본 도구는 개인적인 편의를 위해 제작되었습니다. 지나친 사용은 게임 서비스 이용에 제한을 줄 수 있으므로 주의하여 사용하시기 바랍니다.
+        <div class="warning-box">
+            <strong>⚠️ 면책 조항:</strong> 본 도구는 개인적인 연구 및 편의를 목적으로 제작되었습니다. 게임사의 정책을 준수하여 사용하시기 바라며, 과도한 사용으로 인한 책임은 사용자 본인에게 있습니다.
         </div>
     </div>
 
     <div class="footer">
-        매크로 제작자: [Shinpa (선진)] | 문의: 깃허브 이슈 페이지<br>
+        개발자: <strong>Shinpa (선진)</strong> | 제작 환경: Python PyQt5 & Win32API<br>
         © 2024 TDS Macro Lab. All rights reserved.
     </div>
+</div>
 
 </body>
 </html>
-
-	
