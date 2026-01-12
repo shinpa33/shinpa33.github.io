@@ -2,41 +2,76 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>로블록스 매크로 공식 페이지</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타디시(TDS) 최적화 매크로 공식 페이지</title>
     <style>
-        body { font-family: sans-serif; margin: 0; padding: 10px; line-height: 1.6; color: #333; }
-        .ad-slot { width: 100%; height: 100px; background: #f9f9f9; border: 1px dashed #ccc; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }
-        .content { font-size: 14px; }
-        h1 { font-size: 18px; color: #764ba2; }
-        ul { padding-left: 20px; }
-        .footer { font-size: 11px; color: #999; margin-top: 20px; }
+        /* 프로그램 하단 웹뷰에 최적화된 스타일 */
+        body { font-family: 'Malgun Gothic', sans-serif; margin: 0; padding: 15px; line-height: 1.6; color: #333; background-color: #ffffff; }
+        
+        /* 광고가 들어갈 핵심 박스 */
+        .ad-container { 
+            width: 100%; 
+            min-height: 100px; 
+            background: #f0f2f5; 
+            border: 2px dashed #764ba2; 
+            display: flex; 
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center; 
+            margin-bottom: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .ad-label { font-size: 12px; color: #764ba2; font-weight: bold; margin-bottom: 5px; }
+
+        .content { background: #fff; padding: 10px; border-radius: 8px; }
+        h1 { font-size: 20px; color: #4b6cb7; margin-top: 0; border-bottom: 2px solid #4b6cb7; padding-bottom: 5px; }
+        h3 { font-size: 16px; color: #333; margin-bottom: 8px; }
+        p { margin: 8px 0; font-size: 13px; }
+        ul { padding-left: 20px; margin: 8px 0; }
+        li { font-size: 13px; margin-bottom: 5px; }
+        
+        /* 애드센스 승인을 위한 정보성 문구 추가 */
+        .notice { background: #fff3cd; padding: 10px; border-radius: 5px; font-size: 12px; border: 1px solid #ffeeba; margin-top: 15px; }
+        .footer { font-size: 11px; color: #aaa; text-align: center; margin-top: 30px; border-top: 1px solid #eee; padding-top: 10px; }
     </style>
 </head>
 <body>
 
-    <div class="ad-slot">
-        <p>여기에 구글 광고가 표시됩니다</p>
-        </div>
+    <div class="ad-container">
+        <div class="ad-label">SPONSORED AD</div>
+        <p style="font-size: 11px; color: #888;">애드센스 승인 심사 진행 중입니다.<br>승인 후 이곳에 광고가 표시됩니다.</p>
+    </div>
 
     <div class="content">
-        <h1>🎬 로블록스 최적화 매크로</h1>
-        <p>이 프로그램은 <strong>SendInput</strong> 방식을 사용하여 게임 내 인식을 극대화한 자동화 도구입니다.</p>
+        <h1>🎬 타디시(TDS) 전용 최적화 매크로 v1.0</h1>
+        <p>본 프로그램은 타워 디펜스 시뮬레이터(TDS) 플레이어들을 위해 제작된 <strong>고성능 자동화 도구</strong>입니다. 단순 반복 작업을 효율적으로 줄여주며 게임 내 인식을 최적화했습니다.</p>
         
-        <h3>주요 기능:</h3>
+        <h3>핵심 기술 및 기능:</h3>
         <ul>
-            <li><strong>정밀한 녹화:</strong> 마우스 이동, 클릭, 키보드 입력을 밀리초 단위로 기록합니다.</li>
-            <li><strong>창 활성화 지원:</strong> 매크로 시작 시 대상 창을 자동으로 찾아 활성화합니다.</li>
-            <li><strong>무한 반복:</strong> 루프 모드를 통해 원하는 횟수만큼 작업을 반복할 수 있습니다.</li>
-            <li><strong>파일 저장:</strong> 녹화된 액션을 .macro 파일로 저장하고 언제든 불러옵니다.</li>
+            <li><strong>Win32 SendInput 최적화:</strong> 일반적인 마우스 클릭보다 인식률이 높은 커널 수준의 입력을 전달하여 로블록스 보안 환경에서도 안정적으로 작동합니다.</li>
+            <li><strong>자동 창 포커싱:</strong> 게임이 최소화되어 있거나 다른 창 뒤에 숨어있어도 실행 시 자동으로 게임 화면을 맨 앞으로 가져옵니다.</li>
+            <li><strong>상대 시간 기록 방식:</strong> 시스템 부하와 상관없이 녹화된 간격 그대로 정밀하게 재현합니다.</li>
+            <li><strong>스마트 루프 시스템:</strong> 무한 반복 기능으로 장시간 자동 플레이가 가능합니다.</li>
         </ul>
 
-        <h3>사용 방법:</h3>
-        <p>F8 키로 녹화를 시작/중지하고, F7 키로 재생할 수 있습니다. 반드시 관리자 권한으로 실행해 주세요.</p>
+        <h3>올바른 사용 가이드:</h3>
+        <p>1. 프로그램을 <strong>관리자 권한</strong>으로 실행합니다.<br>
+           2. <strong>F8</strong>을 눌러 녹화를 시작하고 원하는 조작을 수행합니다.<br>
+           3. 다시 <strong>F8</strong>로 저장을 완료한 뒤, <strong>F7</strong>을 눌러 재생합니다.</p>
+
+        <div class="notice">
+            <strong>⚠️ 주의사항:</strong> 본 도구는 개인적인 편의를 위해 제작되었습니다. 지나친 사용은 게임 서비스 이용에 제한을 줄 수 있으므로 주의하여 사용하시기 바랍니다.
+        </div>
     </div>
 
     <div class="footer">
-        © 2024 Macro Developer. All rights reserved.
+        매크로 제작자: [Shinpa (선진)] | 문의: 깃허브 이슈 페이지<br>
+        © 2024 TDS Macro Lab. All rights reserved.
     </div>
 
 </body>
 </html>
+
+	
